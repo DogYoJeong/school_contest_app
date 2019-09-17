@@ -25,6 +25,11 @@ class ScApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.settings), onPressed: () {
+
+          }),
+        ],
         title: Text('StopWatch'),
       ),
       body: Container(
